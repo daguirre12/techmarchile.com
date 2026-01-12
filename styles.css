@@ -62,8 +62,8 @@ h2{margin:0 0 12px; font-size:26px}
 .tag{font-size:12px; padding:4px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted)}
 
 .gallery{display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; margin-top:14px}
-.gallery figure{margin:0; padding:0; border-radius:16px; overflow:hidden; border:1px solid var(--line); background:#09101d}
-.gallery img{width:100%; aspect-ratio: 4 / 3; object-fit:cover; object-position:center; display:block}
+.gallery figure{margin:0; border-radius:16px; overflow:hidden; border:1px solid var(--line); background:#09101d; display: flex; flex-direction:column}
+.gallery img{width:100%; height:auto; aspect-ratio: 4 / 3; object-fit:cover; object-position:center; display:block}
 .gallery figcaption{padding:10px 12px; color:var(--muted); font-size:13px; background:rgba(0,0,0,.25)}
 
 .contact{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:14px}
@@ -86,6 +86,7 @@ h2{margin:0 0 12px; font-size:26px}
 .btn-whatsapp:hover{
   border-color: rgba(255,255,255,.25);
 }
+
 
 
 
