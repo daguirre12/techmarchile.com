@@ -1,4 +1,4 @@
-ght:root{
+root{
   --bg:#0a1224;          /* azul muy oscuro (fondo) */
   --panel:#0e1a33;       /* paneles / nav */
   --card:#11224a;        /* tarjetas */
@@ -87,6 +87,7 @@ h2{margin:0 0 12px; font-size:26px}
 .btn-whatsapp:hover{
   border-color: rgba(255,255,255,.25);
 }
+
 
 
 
